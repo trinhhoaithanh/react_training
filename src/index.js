@@ -1,11 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import BaiTapThucHanhLayout from './components/BTLayout/BaiTapThucHanhLayout';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import BTLayout from "./components/BTLayout/BTLayout";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BaiTapThucHanhLayout/>
-
-)
-
-
+  <div>
+    <BTLayout />
+  </div>
+);
